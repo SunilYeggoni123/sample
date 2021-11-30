@@ -1,0 +1,20 @@
+var a = "Sunil";
+var b = 10;
+var c = 20;
+var d = b + c;
+var uname = "Sunil";
+var sentence = "My name is " + uname + "\nIam a beginner in TypeScript";
+console.log(a);
+console.log(b);
+console.log(d);
+console.log(sentence);
+var Names;
+(function (Names) {
+    Names[Names["Sunil"] = 0] = "Sunil";
+    Names[Names["Shabana"] = 1] = "Shabana";
+    Names[Names["mokshith"] = 2] = "mokshith";
+    Names[Names["preetham"] = 3] = "preetham";
+})(Names || (Names = {}));
+;
+var z = Names.mokshith;
+console.log(z);
